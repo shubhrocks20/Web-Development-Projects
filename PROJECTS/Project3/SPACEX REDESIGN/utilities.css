@@ -1,0 +1,39 @@
+.container{
+    width:1460px;
+
+    max-width: 90%;
+
+    margin: 0 auto;
+
+    /* background: red; */
+}
+
+.btn{
+    padding:0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    cursor:pointer;
+    transition:all .5s ease-in-out;
+    font-size:16px;
+}
+
+.btn-primary{
+    color:var(--dark);
+    background:var(--pure);
+}
+.btn-primary:hover{
+    background: transparent;
+    color:var(--pure);
+    border-color:var(--pure);
+}
+
+.btn-secondary{
+    background:transparent;
+    color:var(--pure);
+    border-color:var(--pure);
+}
+
+.btn-secondary:hover{
+    background:var(--pure);
+    color:var(--dark);
+}
